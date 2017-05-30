@@ -16,7 +16,7 @@ import 'lib_cluster.dart';
 import 'util.dart';
 import 'writer.dart';
 
-class DartLibGraph {
+class LibGraph {
   final bool _writeExports = false;
 
   final String projectPath;
@@ -25,10 +25,10 @@ class DartLibGraph {
   final AnalysisContext context;
   final String srcDir;
 
-  DartLibGraph._(this.packageName, this.projectPath, this.projectLibPath,
+  LibGraph._(this.packageName, this.projectPath, this.projectLibPath,
       this.context, this.srcDir);
 
-  static Future<DartLibGraph> create(String projectPath) async {
+  static Future<LibGraph> create(String projectPath) async {
     //TODO(kevmoo) actually parse the pubspec, right?
     var packageName = p.split(projectPath).last;
 
@@ -42,7 +42,7 @@ class DartLibGraph {
 
     final srcDir = p.join(projectLibPath, 'src');
 
-    return new DartLibGraph._(
+    return new LibGraph._(
         packageName, projectPath, projectLibPath, context, srcDir);
   }
 
@@ -149,7 +149,7 @@ class DartLibGraph {
     });
 
     var sink = new StringBuffer();
-    sink.writeln('digraph dart_lib_graph {');
+    sink.writeln('digraph lib_graph {');
     sink.writeln('  node [fontname=Helvetica];');
     sink.writeln('  edge [fontname=Helvetica, fontcolor=gray];');
 
