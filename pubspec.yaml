@@ -1,11 +1,11 @@
 name: lib_graph
-version: 0.0.1
-description: A sample command-line application.
-#author: Kevin Moore <email@example.com>
-#homepage: https://www.example.com
+version: 0.1.0-dev
+description: Graph Dart library dependencies
+homepage: https://github.com/kevmoo/lib_graph
+author: Kevin Moore <kevmoo@google.com>
 
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=1.8.0 <2.0.0'
 
 dependencies:
   analyzer: ^0.30.0
