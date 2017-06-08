@@ -7,10 +7,10 @@ digraph lib_graph {
   "297110876" -> "c421482259" [color="blue",style="bold"];
   "297110876" -> "654659142" [color="darkgreen"];
   "297110876" -> "463283586" [color="darkgreen"];
-  "297110876" -> "827502872" [color="darkgreen"];
   "297110876" -> "825471063" [color="darkgreen"];
   "297110876" -> "490391631" [color="darkgreen"];
   "297110876" -> "923368045" [color="darkgreen"];
+  "297110876" -> "932937308" [color="darkgreen"];
   "297110876" -> "518275599" [color="darkgreen"];
   "297110876" -> "626219191" [color="darkgreen"];
 
@@ -41,7 +41,6 @@ digraph lib_graph {
   "376924291" -> "747190681" [color="darkgreen"];
 
   "913357411" [label="di.dart",style="bold,filled",fontsize="20",color="red"];
-  "913357411" -> "827502872" [color="darkgreen"];
   "913357411" -> "20443295" [color="darkgreen"];
   "913357411" -> "632153951" [color="darkgreen"];
   "913357411" -> "84783345" [color="darkgreen"];
@@ -299,15 +298,17 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "170379827" -> "913357411" [constraint="false"];
   "170379827" -> "715821408";
 
+  "408166487" [label="src/compiler/attribute_matcher.dart"];
+
   "750487869" [label="src/compiler/chars.dart"];
 
   "803608755" [label="src/compiler/compile_metadata.dart"];
   "803608755" -> "18312096";
   "803608755" -> "579866793";
-  "803608755" -> "827502872";
   "803608755" -> "68099265";
   "803608755" -> "996263848";
   "803608755" -> "417628231";
+  "803608755" -> "932937308";
   "803608755" -> "c653859099" [color="blue",style="bold"];
 
   "1048921964" [label="src/compiler/compiler.dart"];
@@ -315,23 +316,17 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "1048921964" -> "184904962";
   "1048921964" -> "935071371";
   "1048921964" -> "463283586";
-  "1048921964" -> "943071157";
-  "1048921964" -> "959002059";
-  "1048921964" -> "245815942";
   "1048921964" -> "116252819" [color="darkgreen"];
   "1048921964" -> "272535423";
-  "1048921964" -> "667896921";
-  "1048921964" -> "24167092";
   "1048921964" -> "615680471" [color="darkgreen"];
   "1048921964" -> "253824997";
   "1048921964" -> "916834426" [color="darkgreen"];
-  "1048921964" -> "649631662";
-  "1048921964" -> "827502872";
   "1048921964" -> "400619376";
   "1048921964" -> "825471063";
   "1048921964" -> "615751414" [color="darkgreen"];
   "1048921964" -> "632153951";
   "1048921964" -> "647671040" [color="darkgreen"];
+  "1048921964" -> "932937308";
   "1048921964" -> "627879019";
 
   "18312096" [label="src/compiler/compiler_utils.dart"];
@@ -349,10 +344,10 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "935071371" -> "245815942";
   "935071371" -> "163414243";
   "935071371" -> "243575024";
-  "935071371" -> "827502872";
   "935071371" -> "615751414";
   "935071371" -> "632153951";
   "935071371" -> "417628231";
+  "935071371" -> "932937308";
   "935071371" -> "c653859099" [color="blue",style="bold"];
 
   "463283586" [label="src/compiler/directive_resolver.dart"];
@@ -365,14 +360,12 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "633229233" -> "803608755";
 
   "943071157" [label="src/compiler/expression_parser/lexer.dart"];
-  "943071157" -> "468201103";
   "943071157" -> "c653859099" [color="blue",style="bold"];
 
   "959002059" [label="src/compiler/expression_parser/parser.dart"];
   "959002059" -> "803608755";
   "959002059" -> "633229233";
   "959002059" -> "943071157";
-  "959002059" -> "468201103";
   "959002059" -> "c653859099" [color="blue",style="bold"];
   "959002059" -> "627879019";
 
@@ -443,13 +436,13 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
 
   "667896921" [label="src/compiler/schema/dom_element_schema_registry.dart"];
   "667896921" -> "24167092";
-  "667896921" -> "632153951";
   "667896921" -> "107961682";
 
   "24167092" [label="src/compiler/schema/element_schema_registry.dart"];
   "24167092" -> "107961682";
 
   "579866793" [label="src/compiler/selector.dart"];
+  "579866793" -> "408166487";
   "579866793" -> "c653859099" [color="blue",style="bold"];
 
   "632781630" [label="src/compiler/shadow_css.dart"];
@@ -463,12 +456,12 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "253824997" -> "466968736";
   "253824997" -> "632781630";
   "253824997" -> "163414243";
-  "253824997" -> "827502872";
   "253824997" -> "632153951";
   "253824997" -> "417628231";
+  "253824997" -> "932937308";
 
   "163414243" [label="src/compiler/style_url_resolver.dart"];
-  "163414243" -> "827502872";
+  "163414243" -> "932937308";
 
   "916834426" [label="src/compiler/template_ast.dart"];
   "916834426" -> "803608755";
@@ -477,7 +470,6 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "916834426" -> "107961682";
 
   "649631662" [label="src/compiler/template_parser.dart"];
-  "649631662" -> "913357411" [constraint="false"];
   "649631662" -> "750487869";
   "649631662" -> "803608755";
   "649631662" -> "633229233";
@@ -502,10 +494,6 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "243575024" [label="src/compiler/template_preparser.dart"];
   "243575024" -> "370781563";
   "243575024" -> "809549162";
-
-  "827502872" [label="src/compiler/url_resolver.dart"];
-  "827502872" -> "923368045";
-  "827502872" -> "632153951";
 
   "c702284806" [label="src/compiler/view_compiler/
 compile_binding.dart
@@ -840,6 +828,10 @@ view_ref.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color
   "1057019524" -> "632153951";
   "1057019524" -> "866492431";
 
+  "932937308" [label="src/core/url_resolver.dart"];
+  "932937308" -> "923368045";
+  "932937308" -> "632153951";
+
   "887824506" [label="src/core/zone.dart"];
   "887824506" -> "866492431" [color="darkgreen"];
 
@@ -1036,7 +1028,6 @@ exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
 directives/router_outlet.dart
 router.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
   "c722737283" -> "376924291" [constraint="false"];
-  "c722737283" -> "334434919";
   "c722737283" -> "912511479";
   "c722737283" -> "565769921";
   "c722737283" -> "608589095";
@@ -1187,8 +1178,8 @@ route_registry.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20"
   "971230709" -> "667896921";
   "971230709" -> "253824997";
   "971230709" -> "649631662";
-  "971230709" -> "827502872";
   "971230709" -> "400619376";
+  "971230709" -> "932937308";
   "971230709" -> "712835814";
 
   "796691561" [label="src/source_gen/common/ng_deps_model.dart"];
@@ -1470,7 +1461,7 @@ zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="li
   "218796733" -> "773443401";
 
   "773443401" [label="src/transform/common/url_resolver.dart"];
-  "773443401" -> "827502872" [color="darkgreen"];
+  "773443401" -> "932937308" [color="darkgreen"];
 
   "107530382" [label="src/transform/common/xhr_impl.dart"];
   "107530382" -> "615751414";
@@ -1492,7 +1483,7 @@ zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="li
   "549153112" -> "518524038";
 
   "446629578" [label="src/transform/directive_metadata_linker/ng_deps_linker.dart"];
-  "446629578" -> "18339857" [constraint="false"];
+  "446629578" -> "932937308";
   "446629578" -> "563731233";
   "446629578" -> "c441433410" [color="blue",style="bold"];
   "446629578" -> "34025253";
@@ -1597,6 +1588,7 @@ zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="li
   "715460934" [label="src/transform/stylesheet_compiler/processor.dart"];
   "715460934" -> "184904962";
   "715460934" -> "615680471";
+  "715460934" -> "921843339";
   "715460934" -> "563731233";
   "715460934" -> "c441433410" [color="blue",style="bold"];
   "715460934" -> "39053137";
