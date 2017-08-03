@@ -19,7 +19,7 @@ import 'package:path/path.dart' as p;
 Future<AnalysisContext> getAnalysisContextForProjectPath(
     String projectPath, List<String> foundFiles) async {
   // TODO: fail more clearly if this...fails
-  var sdkPath = cli.getSdkDir().path;
+  var sdkPath = cli.getSdkPath();
 
   JavaSystemIO.setProperty("com.google.dart.sdk", sdkPath);
   var resourceProvider = PhysicalResourceProvider.INSTANCE;
