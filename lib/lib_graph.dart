@@ -8,13 +8,13 @@ import 'dart:io';
 
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/src/generated/engine.dart';
+import 'package:gviz/gviz.dart';
 import 'package:path/path.dart' as p;
 
 import 'analyzer.dart';
 import 'edge.dart';
 import 'lib_cluster.dart';
 import 'util.dart';
-import 'writer.dart';
 
 class LibGraph {
   final bool _writeExports = false;
@@ -148,10 +148,10 @@ class LibGraph {
       return value;
     });
 
-    var sink = new StringBuffer();
-    sink.writeln('digraph lib_graph {');
-    sink.writeln('  node [fontname=Helvetica];');
-    sink.writeln('  edge [fontname=Helvetica, fontcolor=gray];');
+    var sink = new Graph(
+        name: 'lib_graph',
+        nodeProperties: {'fontname': 'Helvetica'},
+        edgeProperties: {'fontname': 'Helvetica', 'fontcolor': 'gray'});
 
     var writtenClusters = new Set<LibCluster>();
 
@@ -167,8 +167,7 @@ class LibGraph {
       props['fontsize'] = '20';
       props['color'] = 'lightblue';
 
-      sink.writeln();
-      writeNode(sink, cluster.id, props);
+      sink.addNode(cluster.id, properties: props);
     }
 
     var components =
@@ -214,8 +213,7 @@ class LibGraph {
         props['color'] = 'orange';
       }
 
-      sink.writeln();
-      writeNode(sink, _nameForLib(element), props);
+      sink.addNode(_nameForLib(element), properties: props);
     }
 
     var librariesToProcess = graphedLibraries.keys.toSet();
@@ -292,13 +290,11 @@ class LibGraph {
           }
         }
 
-        writeEdge(sink, fromName, toName, props);
+        sink.addEdge(fromName, toName, properties: props);
       }
     });
 
-    sink.writeln('}');
-
-    new File('output.dot').writeAsStringSync(sink.toString());
+    print(sink);
 
     if (_writeExports) {
       for (var lib in sortedLibs.where((le) => statsSortParm(stats[le]) > 1)) {

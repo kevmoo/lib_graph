@@ -2,68 +2,68 @@ digraph lib_graph {
   node [fontname=Helvetica];
   edge [fontname=Helvetica, fontcolor=gray];
 
-  "125735983" [label="angular.dart",style="bold,filled",fontsize="20",color="red"];
-  "125735983" -> "376924291" [color="darkgreen",constraint="false"];
-  "125735983" -> "850155228" [color="darkgreen"];
-  "125735983" -> "654659142" [color="darkgreen"];
-  "125735983" -> "1058715896" [color="darkgreen"];
-  "125735983" -> "873986948" [color="darkgreen"];
-  "125735983" -> "490391631" [color="darkgreen"];
-  "125735983" -> "923368045" [color="darkgreen"];
-  "125735983" -> "932937308" [color="darkgreen"];
-  "125735983" -> "856157443" [color="darkgreen"];
-  "125735983" -> "518275599" [color="darkgreen"];
-  "125735983" -> "626219191" [color="darkgreen"];
+  "125735983" [label="angular.dart", style="bold,filled", fontsize="20", color=red];
+  "125735983" -> "376924291" [color=darkgreen, constraint=false];
+  "125735983" -> "850155228" [color=darkgreen];
+  "125735983" -> "654659142" [color=darkgreen];
+  "125735983" -> "1058715896" [color=darkgreen];
+  "125735983" -> "873986948" [color=darkgreen];
+  "125735983" -> "490391631" [color=darkgreen];
+  "125735983" -> "923368045" [color=darkgreen];
+  "125735983" -> "932937308" [color=darkgreen];
+  "125735983" -> "856157443" [color=darkgreen];
+  "125735983" -> "518275599" [color=darkgreen];
+  "125735983" -> "626219191" [color=darkgreen];
 
-  "376924291" [label="core.dart",style="bold,filled",fontsize="20",color="red"];
-  "376924291" -> "490391631" [color="darkgreen"];
-  "376924291" -> "619030847" [color="darkgreen"];
-  "376924291" -> "172518970" [color="darkgreen"];
-  "376924291" -> "923368045" [color="darkgreen"];
-  "376924291" -> "749498125" [color="darkgreen"];
-  "376924291" -> "632153951" [color="darkgreen"];
-  "376924291" -> "169654569" [color="darkgreen"];
-  "376924291" -> "84783345" [color="darkgreen"];
-  "376924291" -> "135469510" [color="darkgreen"];
-  "376924291" -> "647671040" [color="darkgreen"];
-  "376924291" -> "74334470" [color="darkgreen"];
-  "376924291" -> "970484555" [color="darkgreen"];
-  "376924291" -> "1057019524" [color="darkgreen"];
-  "376924291" -> "887824506" [color="darkgreen"];
-  "376924291" -> "747190681" [color="darkgreen"];
+  "376924291" [label="core.dart", style="bold,filled", fontsize="20", color=red];
+  "376924291" -> "490391631" [color=darkgreen];
+  "376924291" -> "619030847" [color=darkgreen];
+  "376924291" -> "172518970" [color=darkgreen];
+  "376924291" -> "923368045" [color=darkgreen];
+  "376924291" -> "749498125" [color=darkgreen];
+  "376924291" -> "632153951" [color=darkgreen];
+  "376924291" -> "169654569" [color=darkgreen];
+  "376924291" -> "84783345" [color=darkgreen];
+  "376924291" -> "135469510" [color=darkgreen];
+  "376924291" -> "647671040" [color=darkgreen];
+  "376924291" -> "74334470" [color=darkgreen];
+  "376924291" -> "970484555" [color=darkgreen];
+  "376924291" -> "1057019524" [color=darkgreen];
+  "376924291" -> "887824506" [color=darkgreen];
+  "376924291" -> "747190681" [color=darkgreen];
 
-  "913357411" [label="di.dart",style="bold,filled",fontsize="20",color="red"];
-  "913357411" -> "20443295" [color="darkgreen"];
-  "913357411" -> "632153951" [color="darkgreen"];
-  "913357411" -> "84783345" [color="darkgreen"];
-  "913357411" -> "1057019524" [color="darkgreen"];
-  "913357411" -> "866492431" [color="darkgreen"];
-  "913357411" -> "747190681" [color="darkgreen"];
+  "913357411" [label="di.dart", style="bold,filled", fontsize="20", color=red];
+  "913357411" -> "20443295" [color=darkgreen];
+  "913357411" -> "632153951" [color=darkgreen];
+  "913357411" -> "84783345" [color=darkgreen];
+  "913357411" -> "1057019524" [color=darkgreen];
+  "913357411" -> "866492431" [color=darkgreen];
+  "913357411" -> "747190681" [color=darkgreen];
 
-  "457598011" [label="experimental.dart",style="bold,filled",fontsize="20",color="red"];
+  "457598011" [label="experimental.dart", style="bold,filled", fontsize="20", color=red];
   "457598011" -> "297449587";
-  "457598011" -> "c316898859" [color="blue",style="bold"];
+  "457598011" -> c316898859 [color=blue, style=bold];
   "457598011" -> "278931602";
 
-  "651637903" [label="security.dart",style="bold,filled",fontsize="20",color="red"];
-  "651637903" -> "791654326" [color="darkgreen"];
-  "651637903" -> "252724893" [color="darkgreen"];
+  "651637903" [label="security.dart", style="bold,filled", fontsize="20", color=red];
+  "651637903" -> "791654326" [color=darkgreen];
+  "651637903" -> "252724893" [color=darkgreen];
 
-  "415129376" [label="source_gen.dart",style="bold,filled",fontsize="20",color="red"];
-  "415129376" -> "974724235" [color="darkgreen"];
+  "415129376" [label="source_gen.dart", style="bold,filled", fontsize="20", color=red];
+  "415129376" -> "974724235" [color=darkgreen];
 
   "850155228" [label="src/common/common_directives.dart"];
   "850155228" -> "654659142";
   "850155228" -> "1058715896";
 
   "654659142" [label="src/common/directives.dart"];
-  "654659142" -> "986221540" [color="darkgreen"];
-  "654659142" -> "870566371" [color="darkgreen"];
-  "654659142" -> "571361507" [color="darkgreen"];
-  "654659142" -> "29325311" [color="darkgreen"];
-  "654659142" -> "318851621" [color="darkgreen"];
-  "654659142" -> "297852628" [color="darkgreen"];
-  "654659142" -> "436888062" [color="darkgreen"];
+  "654659142" -> "986221540" [color=darkgreen];
+  "654659142" -> "870566371" [color=darkgreen];
+  "654659142" -> "571361507" [color=darkgreen];
+  "654659142" -> "29325311" [color=darkgreen];
+  "654659142" -> "318851621" [color=darkgreen];
+  "654659142" -> "297852628" [color=darkgreen];
+  "654659142" -> "436888062" [color=darkgreen];
 
   "986221540" [label="src/common/directives/core_directives.dart"];
   "986221540" -> "870566371";
@@ -74,58 +74,58 @@ digraph lib_graph {
   "986221540" -> "436888062";
 
   "870566371" [label="src/common/directives/ng_class.dart"];
-  "870566371" -> "376924291" [constraint="false"];
+  "870566371" -> "376924291" [constraint=false];
   "870566371" -> "684320675";
   "870566371" -> "830786911";
 
   "571361507" [label="src/common/directives/ng_for.dart"];
-  "571361507" -> "376924291" [constraint="false"];
+  "571361507" -> "376924291" [constraint=false];
   "571361507" -> "684320675";
 
   "29325311" [label="src/common/directives/ng_if.dart"];
-  "29325311" -> "376924291" [constraint="false"];
+  "29325311" -> "376924291" [constraint=false];
   "29325311" -> "278931602";
   "29325311" -> "627879019";
 
   "318851621" [label="src/common/directives/ng_style.dart"];
-  "318851621" -> "376924291" [constraint="false"];
+  "318851621" -> "376924291" [constraint=false];
   "318851621" -> "830786911";
 
   "297852628" [label="src/common/directives/ng_switch.dart"];
-  "297852628" -> "376924291" [constraint="false"];
+  "297852628" -> "376924291" [constraint=false];
   "297852628" -> "468201103";
   "297852628" -> "627879019";
 
   "436888062" [label="src/common/directives/ng_template_outlet.dart"];
-  "436888062" -> "376924291" [constraint="false"];
+  "436888062" -> "376924291" [constraint=false];
 
   "1058715896" [label="src/common/forms.dart"];
-  "1058715896" -> "208397111" [color="darkgreen"];
-  "1058715896" -> "559732536" [color="darkgreen"];
-  "1058715896" -> "918159544" [color="darkgreen"];
-  "1058715896" -> "c216143508" [color="blue",style="bold"];
-  "1058715896" -> "393299077" [color="darkgreen"];
-  "1058715896" -> "399080308" [color="darkgreen"];
-  "1058715896" -> "193316994" [color="darkgreen"];
-  "1058715896" -> "816188280" [color="darkgreen"];
-  "1058715896" -> "496912152" [color="darkgreen"];
-  "1058715896" -> "1033364825" [color="darkgreen"];
-  "1058715896" -> "441623974" [color="darkgreen"];
-  "1058715896" -> "546477596" [color="darkgreen"];
-  "1058715896" -> "441560152" [color="darkgreen"];
+  "1058715896" -> "208397111" [color=darkgreen];
+  "1058715896" -> "559732536" [color=darkgreen];
+  "1058715896" -> "918159544" [color=darkgreen];
+  "1058715896" -> c216143508 [color=blue, style=bold];
+  "1058715896" -> "393299077" [color=darkgreen];
+  "1058715896" -> "399080308" [color=darkgreen];
+  "1058715896" -> "193316994" [color=darkgreen];
+  "1058715896" -> "816188280" [color=darkgreen];
+  "1058715896" -> "496912152" [color=darkgreen];
+  "1058715896" -> "1033364825" [color=darkgreen];
+  "1058715896" -> "441623974" [color=darkgreen];
+  "1058715896" -> "546477596" [color=darkgreen];
+  "1058715896" -> "441560152" [color=darkgreen];
   "1058715896" -> "123349275";
-  "1058715896" -> "261532195" [color="darkgreen"];
-  "1058715896" -> "c599268801" [color="blue",style="bold"];
+  "1058715896" -> "261532195" [color=darkgreen];
+  "1058715896" -> c599268801 [color=blue, style=bold];
   "1058715896" -> "217579318";
 
   "208397111" [label="src/common/forms/directives.dart"];
   "208397111" -> "918159544";
-  "208397111" -> "393299077" [color="darkgreen"];
+  "208397111" -> "393299077" [color=darkgreen];
   "208397111" -> "399080308";
-  "208397111" -> "193316994" [color="darkgreen"];
-  "208397111" -> "c216143508" [color="blue",style="bold"];
+  "208397111" -> "193316994" [color=darkgreen];
+  "208397111" -> c216143508 [color=blue, style=bold];
   "208397111" -> "816188280";
-  "208397111" -> "496912152" [color="darkgreen"];
+  "208397111" -> "496912152" [color=darkgreen];
   "208397111" -> "1033364825";
   "208397111" -> "441623974";
   "208397111" -> "546477596";
@@ -133,140 +133,144 @@ digraph lib_graph {
   "208397111" -> "233527987";
   "208397111" -> "123349275";
   "208397111" -> "261532195";
-  "208397111" -> "c599268801" [color="blue",style="bold"];
+  "208397111" -> c599268801 [color=blue, style=bold];
 
   "559732536" [label="src/common/forms/directives/abstract_control_directive.dart"];
-  "559732536" -> "c599268801" [color="blue",style="bold"];
+  "559732536" -> c599268801 [color=blue, style=bold];
 
   "918159544" [label="src/common/forms/directives/checkbox_value_accessor.dart"];
-  "918159544" -> "376924291" [constraint="false"];
+  "918159544" -> "376924291" [constraint=false];
   "918159544" -> "393299077";
 
-  "c216143508" [label="src/common/forms/directives/
+  c216143508 [label="src/common/forms/directives/
 control_container.dart
 form_interface.dart
 ng_control_group.dart
-shared.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c216143508" -> "559732536";
-  "c216143508" -> "c599268801" [color="blue",style="bold"];
+shared.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c216143508 -> "559732536";
+  c216143508 -> c599268801 [color=blue, style=bold];
 
   "393299077" [label="src/common/forms/directives/control_value_accessor.dart"];
-  "393299077" -> "913357411" [constraint="false"];
+  "393299077" -> "913357411" [constraint=false];
 
   "399080308" [label="src/common/forms/directives/default_value_accessor.dart"];
-  "399080308" -> "376924291" [constraint="false"];
+  "399080308" -> "376924291" [constraint=false];
   "399080308" -> "393299077";
-  "c216143508" -> "193316994";
+
+  c216143508 -> "193316994";
 
   "193316994" [label="src/common/forms/directives/ng_control.dart"];
   "193316994" -> "559732536";
   "193316994" -> "393299077";
-  "193316994" -> "c599268801" [color="blue",style="bold"];
-  "c216143508" -> "376924291" [constraint="false"];
-  "c216143508" -> "913357411" [constraint="false"];
+  "193316994" -> c599268801 [color=blue, style=bold];
+
+  c216143508 -> "376924291" [constraint=false];
+  c216143508 -> "913357411" [constraint=false];
 
   "816188280" [label="src/common/forms/directives/ng_control_name.dart"];
-  "816188280" -> "376924291" [constraint="false"];
-  "816188280" -> "913357411" [constraint="false"];
-  "816188280" -> "c216143508" [color="blue",style="bold"];
+  "816188280" -> "376924291" [constraint=false];
+  "816188280" -> "913357411" [constraint=false];
+  "816188280" -> c216143508 [color=blue, style=bold];
   "816188280" -> "393299077";
   "816188280" -> "193316994";
-  "816188280" -> "c599268801" [color="blue",style="bold"];
+  "816188280" -> c599268801 [color=blue, style=bold];
   "816188280" -> "334434919";
 
   "496912152" [label="src/common/forms/directives/ng_control_status.dart"];
-  "496912152" -> "376924291" [constraint="false"];
-  "496912152" -> "913357411" [constraint="false"];
+  "496912152" -> "376924291" [constraint=false];
+  "496912152" -> "913357411" [constraint=false];
   "496912152" -> "193316994";
 
   "1033364825" [label="src/common/forms/directives/ng_form.dart"];
-  "1033364825" -> "376924291" [constraint="false"];
-  "1033364825" -> "913357411" [constraint="false"];
-  "1033364825" -> "c216143508" [color="blue",style="bold"];
+  "1033364825" -> "376924291" [constraint=false];
+  "1033364825" -> "913357411" [constraint=false];
+  "1033364825" -> c216143508 [color=blue, style=bold];
   "1033364825" -> "193316994";
-  "1033364825" -> "c599268801" [color="blue",style="bold"];
+  "1033364825" -> c599268801 [color=blue, style=bold];
   "1033364825" -> "334434919";
 
   "441623974" [label="src/common/forms/directives/ng_form_control.dart"];
-  "441623974" -> "376924291" [constraint="false"];
-  "441623974" -> "913357411" [constraint="false"];
+  "441623974" -> "376924291" [constraint=false];
+  "441623974" -> "913357411" [constraint=false];
   "441623974" -> "393299077";
   "441623974" -> "193316994";
-  "441623974" -> "c216143508" [color="blue",style="bold"];
-  "441623974" -> "c599268801" [color="blue",style="bold"];
+  "441623974" -> c216143508 [color=blue, style=bold];
+  "441623974" -> c599268801 [color=blue, style=bold];
   "441623974" -> "334434919";
 
   "546477596" [label="src/common/forms/directives/ng_form_model.dart"];
-  "546477596" -> "376924291" [constraint="false"];
-  "546477596" -> "913357411" [constraint="false"];
-  "546477596" -> "c216143508" [color="blue",style="bold"];
+  "546477596" -> "376924291" [constraint=false];
+  "546477596" -> "913357411" [constraint=false];
+  "546477596" -> c216143508 [color=blue, style=bold];
   "546477596" -> "193316994";
-  "546477596" -> "c599268801" [color="blue",style="bold"];
+  "546477596" -> c599268801 [color=blue, style=bold];
   "546477596" -> "334434919";
-  "546477596" -> "c653859099" [color="blue",style="bold"];
+  "546477596" -> c653859099 [color=blue, style=bold];
 
   "441560152" [label="src/common/forms/directives/ng_model.dart"];
-  "441560152" -> "376924291" [constraint="false"];
-  "441560152" -> "913357411" [constraint="false"];
+  "441560152" -> "376924291" [constraint=false];
+  "441560152" -> "913357411" [constraint=false];
   "441560152" -> "393299077";
   "441560152" -> "193316994";
-  "441560152" -> "c216143508" [color="blue",style="bold"];
-  "441560152" -> "c599268801" [color="blue",style="bold"];
+  "441560152" -> c216143508 [color=blue, style=bold];
+  "441560152" -> c599268801 [color=blue, style=bold];
   "441560152" -> "334434919";
 
   "929954759" [label="src/common/forms/directives/normalize_validator.dart"];
-  "929954759" -> "c599268801" [color="blue",style="bold"];
+  "929954759" -> c599268801 [color=blue, style=bold];
 
   "233527987" [label="src/common/forms/directives/number_value_accessor.dart"];
-  "233527987" -> "376924291" [constraint="false"];
+  "233527987" -> "376924291" [constraint=false];
   "233527987" -> "393299077";
 
   "123349275" [label="src/common/forms/directives/radio_control_value_accessor.dart"];
-  "123349275" -> "376924291" [constraint="false"];
-  "123349275" -> "913357411" [constraint="false"];
+  "123349275" -> "376924291" [constraint=false];
+  "123349275" -> "913357411" [constraint=false];
   "123349275" -> "393299077";
   "123349275" -> "193316994";
 
   "261532195" [label="src/common/forms/directives/select_control_value_accessor.dart"];
-  "261532195" -> "376924291" [constraint="false"];
-  "261532195" -> "913357411" [constraint="false"];
+  "261532195" -> "376924291" [constraint=false];
+  "261532195" -> "913357411" [constraint=false];
   "261532195" -> "393299077";
   "261532195" -> "627879019";
-  "c216143508" -> "918159544";
-  "c216143508" -> "393299077";
-  "c216143508" -> "399080308";
-  "c216143508" -> "929954759";
-  "c216143508" -> "233527987";
-  "c216143508" -> "123349275";
-  "c216143508" -> "261532195";
-  "c216143508" -> "c653859099" [color="blue",style="bold"];
-  "c216143508" -> "627879019";
 
-  "c599268801" [label="src/common/forms/
+  c216143508 -> "918159544";
+  c216143508 -> "393299077";
+  c216143508 -> "399080308";
+  c216143508 -> "929954759";
+  c216143508 -> "233527987";
+  c216143508 -> "123349275";
+  c216143508 -> "261532195";
+  c216143508 -> c653859099 [color=blue, style=bold];
+  c216143508 -> "627879019";
+
+  c599268801 [label="src/common/forms/
 directives/validators.dart
 model.dart
-validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c599268801" -> "376924291" [constraint="false"];
+validators.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c599268801 -> "376924291" [constraint=false];
 
   "217579318" [label="src/common/forms/form_builder.dart"];
-  "217579318" -> "913357411" [constraint="false"];
-  "217579318" -> "c599268801" [color="blue",style="bold"];
-  "c599268801" -> "334434919";
-  "c599268801" -> "913357411" [constraint="false"];
+  "217579318" -> "913357411" [constraint=false];
+  "217579318" -> c599268801 [color=blue, style=bold];
+
+  c599268801 -> "334434919";
+  c599268801 -> "913357411" [constraint=false];
 
   "873986948" [label="src/common/pipes.dart"];
-  "873986948" -> "833500302" [color="darkgreen"];
-  "873986948" -> "422168826" [color="darkgreen"];
-  "873986948" -> "1054929274" [color="darkgreen"];
-  "873986948" -> "190144004" [color="darkgreen"];
-  "873986948" -> "621027314" [color="darkgreen"];
-  "873986948" -> "509127507" [color="darkgreen"];
-  "873986948" -> "407845826" [color="darkgreen"];
-  "873986948" -> "372945352" [color="darkgreen"];
-  "873986948" -> "170379827" [color="darkgreen"];
+  "873986948" -> "833500302" [color=darkgreen];
+  "873986948" -> "422168826" [color=darkgreen];
+  "873986948" -> "1054929274" [color=darkgreen];
+  "873986948" -> "190144004" [color=darkgreen];
+  "873986948" -> "621027314" [color=darkgreen];
+  "873986948" -> "509127507" [color=darkgreen];
+  "873986948" -> "407845826" [color=darkgreen];
+  "873986948" -> "372945352" [color=darkgreen];
+  "873986948" -> "170379827" [color=darkgreen];
 
   "833500302" [label="src/common/pipes/async_pipe.dart"];
-  "833500302" -> "376924291" [constraint="false"];
+  "833500302" -> "376924291" [constraint=false];
   "833500302" -> "715821408";
 
   "422168826" [label="src/common/pipes/common_pipes.dart"];
@@ -280,67 +284,68 @@ validators.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "422168826" -> "170379827";
 
   "1054929274" [label="src/common/pipes/date_pipe.dart"];
-  "1054929274" -> "376924291" [constraint="false"];
+  "1054929274" -> "376924291" [constraint=false];
   "1054929274" -> "715821408";
 
   "715821408" [label="src/common/pipes/invalid_pipe_argument_exception.dart"];
-  "715821408" -> "c653859099" [color="blue",style="bold"];
+  "715821408" -> c653859099 [color=blue, style=bold];
 
   "190144004" [label="src/common/pipes/json_pipe.dart"];
-  "190144004" -> "913357411" [constraint="false"];
+  "190144004" -> "913357411" [constraint=false];
 
   "621027314" [label="src/common/pipes/lowercase_pipe.dart"];
-  "621027314" -> "913357411" [constraint="false"];
+  "621027314" -> "913357411" [constraint=false];
   "621027314" -> "715821408";
 
   "509127507" [label="src/common/pipes/number_pipe.dart"];
-  "509127507" -> "913357411" [constraint="false"];
+  "509127507" -> "913357411" [constraint=false];
   "509127507" -> "715821408";
-  "509127507" -> "c653859099" [color="blue",style="bold"];
+  "509127507" -> c653859099 [color=blue, style=bold];
 
   "407845826" [label="src/common/pipes/replace_pipe.dart"];
-  "407845826" -> "913357411" [constraint="false"];
+  "407845826" -> "913357411" [constraint=false];
   "407845826" -> "715821408";
 
   "372945352" [label="src/common/pipes/slice_pipe.dart"];
-  "372945352" -> "913357411" [constraint="false"];
+  "372945352" -> "913357411" [constraint=false];
   "372945352" -> "715821408";
 
   "170379827" [label="src/common/pipes/uppercase_pipe.dart"];
-  "170379827" -> "913357411" [constraint="false"];
+  "170379827" -> "913357411" [constraint=false];
   "170379827" -> "715821408";
 
-  "c1055190050" [label="src/compiler/
+  c1055190050 [label="src/compiler/
 analyzed_class.dart
 compile_metadata.dart
 identifiers.dart
 output/output_ast.dart
-view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
+view_compiler/constants.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
 
   "408166487" [label="src/compiler/attribute_matcher.dart"];
 
   "750487869" [label="src/compiler/chars.dart"];
-  "c1055190050" -> "18312096";
-  "c1055190050" -> "579866793";
-  "c1055190050" -> "68099265";
-  "c1055190050" -> "996263848";
-  "c1055190050" -> "417628231";
-  "c1055190050" -> "932937308";
-  "c1055190050" -> "c653859099" [color="blue",style="bold"];
+
+  c1055190050 -> "18312096";
+  c1055190050 -> "579866793";
+  c1055190050 -> "68099265";
+  c1055190050 -> "996263848";
+  c1055190050 -> "417628231";
+  c1055190050 -> "932937308";
+  c1055190050 -> c653859099 [color=blue, style=bold];
 
   "1048921964" [label="src/compiler/compiler.dart"];
-  "1048921964" -> "c1055190050" [color="blue",style="bold"];
-  "1048921964" -> "116252819" [color="darkgreen"];
-  "1048921964" -> "615680471" [color="darkgreen"];
-  "1048921964" -> "916834426" [color="darkgreen"];
-  "1048921964" -> "647671040" [color="darkgreen"];
+  "1048921964" -> c1055190050 [color=blue, style=bold];
+  "1048921964" -> "116252819" [color=darkgreen];
+  "1048921964" -> "615680471" [color=darkgreen];
+  "1048921964" -> "916834426" [color=darkgreen];
+  "1048921964" -> "647671040" [color=darkgreen];
   "1048921964" -> "932937308";
 
   "18312096" [label="src/compiler/compiler_utils.dart"];
   "18312096" -> "627879019";
 
   "935071371" [label="src/compiler/directive_normalizer.dart"];
-  "935071371" -> "c1055190050" [color="blue",style="bold"];
+  "935071371" -> c1055190050 [color=blue, style=bold];
   "935071371" -> "370781563";
   "935071371" -> "245815942";
   "935071371" -> "163414243";
@@ -348,19 +353,19 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
   "935071371" -> "615751414";
   "935071371" -> "417628231";
   "935071371" -> "932937308";
-  "935071371" -> "c653859099" [color="blue",style="bold"];
+  "935071371" -> c653859099 [color=blue, style=bold];
 
   "633229233" [label="src/compiler/expression_parser/ast.dart"];
-  "633229233" -> "c1055190050" [color="blue",style="bold"];
+  "633229233" -> c1055190050 [color=blue, style=bold];
 
   "943071157" [label="src/compiler/expression_parser/lexer.dart"];
-  "943071157" -> "c653859099" [color="blue",style="bold"];
+  "943071157" -> c653859099 [color=blue, style=bold];
 
   "959002059" [label="src/compiler/expression_parser/parser.dart"];
-  "959002059" -> "c1055190050" [color="blue",style="bold"];
+  "959002059" -> c1055190050 [color=blue, style=bold];
   "959002059" -> "633229233";
   "959002059" -> "943071157";
-  "959002059" -> "c653859099" [color="blue",style="bold"];
+  "959002059" -> c653859099 [color=blue, style=bold];
   "959002059" -> "627879019";
 
   "370781563" [label="src/compiler/html_ast.dart"];
@@ -380,7 +385,7 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
   "152322514" [label="src/compiler/logging.dart"];
 
   "116252819" [label="src/compiler/offline_compiler.dart"];
-  "116252819" -> "c1055190050" [color="blue",style="bold"];
+  "116252819" -> c1055190050 [color=blue, style=bold];
   "116252819" -> "18312096";
   "116252819" -> "935071371";
   "116252819" -> "497554513";
@@ -388,27 +393,27 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
   "116252819" -> "253824997";
   "116252819" -> "916834426";
   "116252819" -> "649631662";
-  "116252819" -> "c337094129" [color="blue",style="bold"];
+  "116252819" -> c337094129 [color=blue, style=bold];
   "116252819" -> "400619376";
-  "116252819" -> "c653859099" [color="blue",style="bold"];
+  "116252819" -> c653859099 [color=blue, style=bold];
 
   "497554513" [label="src/compiler/output/abstract_emitter.dart"];
-  "497554513" -> "c1055190050" [color="blue",style="bold"];
-  "497554513" -> "c653859099" [color="blue",style="bold"];
+  "497554513" -> c1055190050 [color=blue, style=bold];
+  "497554513" -> c653859099 [color=blue, style=bold];
 
   "807192676" [label="src/compiler/output/dart_emitter.dart"];
-  "807192676" -> "c1055190050" [color="blue",style="bold"];
+  "807192676" -> c1055190050 [color=blue, style=bold];
   "807192676" -> "497554513";
   "807192676" -> "180794540";
-  "807192676" -> "c653859099" [color="blue",style="bold"];
+  "807192676" -> c653859099 [color=blue, style=bold];
 
   "180794540" [label="src/compiler/output/path_util.dart"];
-  "180794540" -> "c653859099" [color="blue",style="bold"];
+  "180794540" -> c653859099 [color=blue, style=bold];
 
   "548433041" [label="src/compiler/parse_util.dart"];
 
   "544046020" [label="src/compiler/provider_parser.dart"];
-  "544046020" -> "c1055190050" [color="blue",style="bold"];
+  "544046020" -> c1055190050 [color=blue, style=bold];
   "544046020" -> "548433041";
   "544046020" -> "916834426";
 
@@ -421,7 +426,7 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
 
   "579866793" [label="src/compiler/selector.dart"];
   "579866793" -> "408166487";
-  "579866793" -> "c653859099" [color="blue",style="bold"];
+  "579866793" -> c653859099 [color=blue, style=bold];
 
   "632781630" [label="src/compiler/shadow_css.dart"];
   "632781630" -> "152322514";
@@ -429,7 +434,7 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
   "615680471" [label="src/compiler/source_module.dart"];
 
   "253824997" [label="src/compiler/style_compiler.dart"];
-  "253824997" -> "c1055190050" [color="blue",style="bold"];
+  "253824997" -> c1055190050 [color=blue, style=bold];
   "253824997" -> "632781630";
   "253824997" -> "163414243";
   "253824997" -> "417628231";
@@ -439,14 +444,14 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
   "163414243" -> "932937308";
 
   "916834426" [label="src/compiler/template_ast.dart"];
-  "916834426" -> "c1055190050" [color="blue",style="bold"];
+  "916834426" -> c1055190050 [color=blue, style=bold];
   "916834426" -> "633229233";
   "916834426" -> "806035729";
   "916834426" -> "107961682";
 
   "649631662" [label="src/compiler/template_parser.dart"];
   "649631662" -> "750487869";
-  "649631662" -> "c1055190050" [color="blue",style="bold"];
+  "649631662" -> c1055190050 [color=blue, style=bold];
   "649631662" -> "633229233";
   "649631662" -> "959002059";
   "649631662" -> "370781563";
@@ -462,14 +467,14 @@ view_compiler/constants.dart",shape="polygon",sides="6",style="bold,filled",font
   "649631662" -> "243575024";
   "649631662" -> "278931602";
   "649631662" -> "107961682";
-  "649631662" -> "c653859099" [color="blue",style="bold"];
+  "649631662" -> c653859099 [color=blue, style=bold];
   "649631662" -> "627879019";
 
   "243575024" [label="src/compiler/template_preparser.dart"];
   "243575024" -> "370781563";
   "243575024" -> "809549162";
 
-  "c337094129" [label="src/compiler/view_compiler/
+  c337094129 [label="src/compiler/view_compiler/
 compile_binding.dart
 compile_element.dart
 compile_method.dart
@@ -481,60 +486,62 @@ event_binder.dart
 perf_profiler.dart
 property_binder.dart
 view_builder.dart
-view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c337094129" -> "916834426";
-  "c337094129" -> "c1055190050" [color="blue",style="bold"];
-  "c337094129" -> "c653859099" [color="blue",style="bold"];
-  "c337094129" -> "1034970103";
-  "c337094129" -> "52854144";
-  "c337094129" -> "996263848";
-  "c337094129" -> "806035729";
+view_compiler_utils.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c337094129 -> "916834426";
+  c337094129 -> c1055190050 [color=blue, style=bold];
+  c337094129 -> c653859099 [color=blue, style=bold];
+  c337094129 -> "1034970103";
+  c337094129 -> "52854144";
+  c337094129 -> "996263848";
+  c337094129 -> "806035729";
 
   "1034970103" [label="src/compiler/view_compiler/expression_converter.dart"];
   "1034970103" -> "750487869";
   "1034970103" -> "633229233";
-  "1034970103" -> "c1055190050" [color="blue",style="bold"];
-  "1034970103" -> "c653859099" [color="blue",style="bold"];
+  "1034970103" -> c1055190050 [color=blue, style=bold];
+  "1034970103" -> c653859099 [color=blue, style=bold];
 
   "255785573" [label="src/compiler/view_compiler/lifecycle_binder.dart"];
-  "255785573" -> "c1055190050" [color="blue",style="bold"];
+  "255785573" -> c1055190050 [color=blue, style=bold];
   "255785573" -> "916834426";
-  "255785573" -> "c337094129" [color="blue",style="bold"];
+  "255785573" -> c337094129 [color=blue, style=bold];
   "255785573" -> "996263848";
 
   "806035729" [label="src/compiler/view_compiler/parse_utils.dart"];
   "806035729" -> "633229233";
-  "806035729" -> "c1055190050" [color="blue",style="bold"];
-  "c337094129" -> "481707547";
-  "c337094129" -> "633229233";
-  "c337094129" -> "68013407";
-  "c337094129" -> "278931602";
-  "c337094129" -> "417628231";
-  "c337094129" -> "107961682";
-  "c337094129" -> "39053137";
+  "806035729" -> c1055190050 [color=blue, style=bold];
+
+  c337094129 -> "481707547";
+  c337094129 -> "633229233";
+  c337094129 -> "68013407";
+  c337094129 -> "278931602";
+  c337094129 -> "417628231";
+  c337094129 -> "107961682";
+  c337094129 -> "39053137";
 
   "707705272" [label="src/compiler/view_compiler/view_binder.dart"];
   "707705272" -> "959002059";
-  "707705272" -> "c1055190050" [color="blue",style="bold"];
+  "707705272" -> c1055190050 [color=blue, style=bold];
   "707705272" -> "24167092";
   "707705272" -> "916834426";
   "707705272" -> "649631662";
-  "707705272" -> "c337094129" [color="blue",style="bold"];
+  "707705272" -> c337094129 [color=blue, style=bold];
   "707705272" -> "255785573";
   "707705272" -> "52854144";
-  "c337094129" -> "959002059";
-  "c337094129" -> "544046020";
-  "c337094129" -> "253824997";
-  "c337094129" -> "68099265";
+
+  c337094129 -> "959002059";
+  c337094129 -> "544046020";
+  c337094129 -> "253824997";
+  c337094129 -> "68099265";
 
   "400619376" [label="src/compiler/view_compiler/view_compiler.dart"];
-  "400619376" -> "c1055190050" [color="blue",style="bold"];
+  "400619376" -> c1055190050 [color=blue, style=bold];
   "400619376" -> "959002059";
   "400619376" -> "548433041";
   "400619376" -> "24167092";
   "400619376" -> "253824997";
   "400619376" -> "916834426";
-  "400619376" -> "c337094129" [color="blue",style="bold"];
+  "400619376" -> c337094129 [color=blue, style=bold];
   "400619376" -> "707705272";
   "400619376" -> "68099265";
 
@@ -542,7 +549,7 @@ view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize
 
   "149924559" [label="src/compiler/xhr_mock.dart"];
   "149924559" -> "615751414";
-  "149924559" -> "c653859099" [color="blue",style="bold"];
+  "149924559" -> c653859099 [color=blue, style=bold];
 
   "490391631" [label="src/core/angular_entrypoint.dart"];
 
@@ -551,7 +558,7 @@ view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize
   "619030847" -> "923368045";
   "619030847" -> "632153951";
   "619030847" -> "278931602";
-  "619030847" -> "c316898859" [color="blue",style="bold"];
+  "619030847" -> c316898859 [color=blue, style=bold];
   "619030847" -> "696343209";
   "619030847" -> "653223570";
 
@@ -560,13 +567,13 @@ view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize
   "172518970" -> "182767878";
   "172518970" -> "68013407";
   "172518970" -> "632153951";
-  "172518970" -> "c316898859" [color="blue",style="bold"];
+  "172518970" -> c316898859 [color=blue, style=bold];
   "172518970" -> "278931602";
   "172518970" -> "696343209";
   "172518970" -> "320955504";
   "172518970" -> "1057019524";
   "172518970" -> "866492431";
-  "172518970" -> "c653859099" [color="blue",style="bold"];
+  "172518970" -> c653859099 [color=blue, style=bold];
   "172518970" -> "627879019";
   "172518970" -> "759944564";
 
@@ -574,17 +581,17 @@ view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize
   "923368045" -> "632153951";
 
   "749498125" [label="src/core/change_detection.dart"];
-  "749498125" -> "68099265" [color="darkgreen"];
-  "749498125" -> "42246764" [color="darkgreen"];
-  "749498125" -> "684320675" [color="darkgreen"];
+  "749498125" -> "68099265" [color=darkgreen];
+  "749498125" -> "42246764" [color=darkgreen];
+  "749498125" -> "684320675" [color=darkgreen];
 
   "68099265" [label="src/core/change_detection/change_detection.dart"];
-  "68099265" -> "937358506" [color="darkgreen"];
-  "68099265" -> "182767878" [color="darkgreen"];
-  "68099265" -> "68013407" [color="darkgreen"];
-  "68099265" -> "684320675" [color="darkgreen"];
-  "68099265" -> "830786911" [color="darkgreen"];
-  "68099265" -> "20443295" [color="darkgreen"];
+  "68099265" -> "937358506" [color=darkgreen];
+  "68099265" -> "182767878" [color=darkgreen];
+  "68099265" -> "68013407" [color=darkgreen];
+  "68099265" -> "684320675" [color=darkgreen];
+  "68099265" -> "830786911" [color=darkgreen];
+  "68099265" -> "20443295" [color=darkgreen];
 
   "937358506" [label="src/core/change_detection/change_detection_util.dart"];
   "937358506" -> "627879019";
@@ -596,22 +603,22 @@ view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize
   "68013407" [label="src/core/change_detection/constants.dart"];
 
   "684320675" [label="src/core/change_detection/differs/default_iterable_differ.dart"];
-  "684320675" -> "c653859099" [color="blue",style="bold"];
+  "684320675" -> c653859099 [color=blue, style=bold];
   "684320675" -> "627879019";
 
   "830786911" [label="src/core/change_detection/differs/default_keyvalue_differ.dart"];
-  "830786911" -> "c653859099" [color="blue",style="bold"];
+  "830786911" -> c653859099 [color=blue, style=bold];
   "830786911" -> "627879019";
 
   "20443295" [label="src/core/change_detection/pipe_transform.dart"];
 
   "632153951" [label="src/core/di.dart"];
-  "632153951" -> "468201103" [color="darkgreen"];
-  "632153951" -> "297449587" [color="darkgreen"];
-  "632153951" -> "18312091" [color="darkgreen"];
-  "632153951" -> "629170854" [color="darkgreen"];
-  "632153951" -> "c662579172" [color="blue",style="bold"];
-  "632153951" -> "1069428260" [color="darkgreen"];
+  "632153951" -> "468201103" [color=darkgreen];
+  "632153951" -> "297449587" [color=darkgreen];
+  "632153951" -> "18312091" [color=darkgreen];
+  "632153951" -> "629170854" [color=darkgreen];
+  "632153951" -> c662579172 [color=blue, style=bold];
+  "632153951" -> "1069428260" [color=darkgreen];
 
   "468201103" [label="src/core/di/decorators.dart"];
 
@@ -620,30 +627,31 @@ view_compiler_utils.dart",shape="polygon",sides="6",style="bold,filled",fontsize
   "18312091" [label="src/core/di/opaque_token.dart"];
 
   "629170854" [label="src/core/di/provider.dart"];
-  "629170854" -> "195075656" [color="darkgreen"];
+  "629170854" -> "195075656" [color=darkgreen];
 
-  "c662579172" [label="src/core/di/
+  c662579172 [label="src/core/di/
 reflective_exceptions.dart
 reflective_injector.dart
-reflective_provider.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c662579172" -> "468201103";
-  "c662579172" -> "629170854";
-  "c662579172" -> "1069428260";
-  "c662579172" -> "c653859099" [color="blue",style="bold"];
-  "c662579172" -> "297449587";
+reflective_provider.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c662579172 -> "468201103";
+  c662579172 -> "629170854";
+  c662579172 -> "1069428260";
+  c662579172 -> c653859099 [color=blue, style=bold];
+  c662579172 -> "297449587";
 
   "1069428260" [label="src/core/di/reflective_key.dart"];
-  "c662579172" -> "74334470";
+
+  c662579172 -> "74334470";
 
   "169654569" [label="src/core/linker.dart"];
-  "169654569" -> "c316898859" [color="blue",style="bold"];
-  "169654569" -> "696343209" [color="darkgreen"];
-  "169654569" -> "653223570" [color="darkgreen"];
-  "169654569" -> "242208331" [color="darkgreen"];
-  "169654569" -> "139815702" [color="darkgreen"];
-  "169654569" -> "902124901" [color="darkgreen"];
+  "169654569" -> c316898859 [color=blue, style=bold];
+  "169654569" -> "696343209" [color=darkgreen];
+  "169654569" -> "653223570" [color=darkgreen];
+  "169654569" -> "242208331" [color=darkgreen];
+  "169654569" -> "139815702" [color=darkgreen];
+  "169654569" -> "902124901" [color=darkgreen];
 
-  "c316898859" [label="src/core/linker/
+  c316898859 [label="src/core/linker/
 app_view.dart
 component_factory.dart
 component_loader.dart
@@ -651,20 +659,20 @@ element_injector.dart
 template_ref.dart
 view_container.dart
 view_container_ref.dart
-view_ref.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c316898859" -> "68099265";
-  "c316898859" -> "42246764" [color="darkgreen"];
-  "c316898859" -> "632153951";
-  "c316898859" -> "297449587";
-  "c316898859" -> "278931602";
-  "c316898859" -> "139815702";
-  "c316898859" -> "52854144";
-  "c316898859" -> "320955504";
-  "c316898859" -> "866492431";
-  "c316898859" -> "759944564";
+view_ref.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c316898859 -> "68099265";
+  c316898859 -> "42246764" [color=darkgreen];
+  c316898859 -> "632153951";
+  c316898859 -> "297449587";
+  c316898859 -> "278931602";
+  c316898859 -> "139815702";
+  c316898859 -> "52854144";
+  c316898859 -> "320955504";
+  c316898859 -> "866492431";
+  c316898859 -> "759944564";
 
   "278931602" [label="src/core/linker/app_view_utils.dart"];
-  "278931602" -> "913357411" [constraint="false"];
+  "278931602" -> "913357411" [constraint=false];
   "278931602" -> "923368045";
   "278931602" -> "68099265";
   "278931602" -> "139815702";
@@ -673,37 +681,39 @@ view_ref.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color
   "278931602" -> "107961682";
   "278931602" -> "627879019";
   "278931602" -> "626219191";
-  "c316898859" -> "74334470";
-  "c316898859" -> "468201103";
+
+  c316898859 -> "74334470";
+  c316898859 -> "468201103";
 
   "696343209" [label="src/core/linker/component_resolver.dart"];
   "696343209" -> "632153951";
-  "696343209" -> "c316898859" [color="blue",style="bold"];
+  "696343209" -> c316898859 [color=blue, style=bold];
   "696343209" -> "74334470";
-  "696343209" -> "c653859099" [color="blue",style="bold"];
+  "696343209" -> c653859099 [color=blue, style=bold];
 
   "653223570" [label="src/core/linker/dynamic_component_loader.dart"];
   "653223570" -> "632153951";
-  "653223570" -> "c316898859" [color="blue",style="bold"];
+  "653223570" -> c316898859 [color=blue, style=bold];
   "653223570" -> "696343209";
 
   "242208331" [label="src/core/linker/element_ref.dart"];
 
   "139815702" [label="src/core/linker/exceptions.dart"];
-  "139815702" -> "c653859099" [color="blue",style="bold"];
+  "139815702" -> c653859099 [color=blue, style=bold];
 
   "902124901" [label="src/core/linker/query_list.dart"];
-  "c316898859" -> "242208331";
-  "c316898859" -> "c653859099" [color="blue",style="bold"];
-  "c316898859" -> "182767878";
-  "c316898859" -> "68013407";
+
+  c316898859 -> "242208331";
+  c316898859 -> c653859099 [color=blue, style=bold];
+  c316898859 -> "182767878";
+  c316898859 -> "68013407";
 
   "52854144" [label="src/core/linker/view_type.dart"];
 
   "84783345" [label="src/core/metadata.dart"];
   "84783345" -> "68099265";
-  "84783345" -> "468201103" [color="darkgreen"];
-  "84783345" -> "996263848" [color="darkgreen"];
+  "84783345" -> "468201103" [color=darkgreen];
+  "84783345" -> "996263848" [color=darkgreen];
   "84783345" -> "417628231";
 
   "996263848" [label="src/core/metadata/lifecycle_hooks.dart"];
@@ -726,7 +736,7 @@ view_ref.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color
   "615049752" [label="src/core/reflection/reflector.dart"];
 
   "970484555" [label="src/core/render.dart"];
-  "970484555" -> "320955504" [color="darkgreen"];
+  "970484555" -> "320955504" [color=darkgreen];
 
   "320955504" [label="src/core/render/api.dart"];
   "320955504" -> "632153951";
@@ -743,29 +753,30 @@ view_ref.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color
   "932937308" -> "632153951";
 
   "887824506" [label="src/core/zone.dart"];
-  "887824506" -> "866492431" [color="darkgreen"];
+  "887824506" -> "866492431" [color=darkgreen];
 
   "866492431" [label="src/core/zone/ng_zone.dart"];
 
-  "c361446790" [label="src/debug/
+  c361446790 [label="src/debug/
 by.dart
-debug_node.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
+debug_node.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
 
-  "c804254910" [label="src/debug/
+  c804254910 [label="src/debug/
 debug_app_view.dart
-debug_context.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c804254910" -> "68099265";
-  "c804254910" -> "632153951";
-  "c804254910" -> "297449587";
-  "c804254910" -> "c316898859" [color="blue",style="bold"];
-  "c804254910" -> "139815702";
-  "c804254910" -> "52854144";
-  "c804254910" -> "320955504";
-  "c804254910" -> "c361446790" [color="blue",style="bold"];
-  "c361446790" -> "172518970";
-  "c361446790" -> "632153951";
-  "c361446790" -> "320955504";
-  "c361446790" -> "866492431";
+debug_context.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c804254910 -> "68099265";
+  c804254910 -> "632153951";
+  c804254910 -> "297449587";
+  c804254910 -> c316898859 [color=blue, style=bold];
+  c804254910 -> "139815702";
+  c804254910 -> "52854144";
+  c804254910 -> "320955504";
+  c804254910 -> c361446790 [color=blue, style=bold];
+
+  c361446790 -> "172518970";
+  c361446790 -> "632153951";
+  c361446790 -> "320955504";
+  c361446790 -> "866492431";
 
   "481707547" [label="src/debug/profile_keys.dart"];
 
@@ -776,43 +787,43 @@ debug_context.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",
 
   "334434919" [label="src/facade/async.dart"];
 
-  "c653859099" [label="src/facade/
+  c653859099 [label="src/facade/
 exception_handler.dart
-exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
+exceptions.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
 
   "747190681" [label="src/facade/facade.dart"];
-  "747190681" -> "334434919" [color="darkgreen"];
-  "747190681" -> "c653859099" [color="blue",style="bold"];
+  "747190681" -> "334434919" [color=darkgreen];
+  "747190681" -> c653859099 [color=blue, style=bold];
 
   "627879019" [label="src/facade/lang.dart"];
 
   "190903299" [label="src/mock/mock_application_ref.dart"];
   "190903299" -> "172518970";
   "190903299" -> "632153951";
-  "190903299" -> "c316898859" [color="blue",style="bold"];
+  "190903299" -> c316898859 [color=blue, style=bold];
   "190903299" -> "866492431";
 
   "856157443" [label="src/platform/bootstrap.dart"];
-  "856157443" -> "376924291" [constraint="false"];
+  "856157443" -> "376924291" [constraint=false];
   "856157443" -> "172518970";
   "856157443" -> "207705837";
 
   "845265701" [label="src/platform/browser/exceptions.dart"];
-  "845265701" -> "376924291" [constraint="false"];
+  "845265701" -> "376924291" [constraint=false];
 
   "231585129" [label="src/platform/browser/testability.dart"];
-  "231585129" -> "913357411" [constraint="false"];
+  "231585129" -> "913357411" [constraint=false];
 
   "859276239" [label="src/platform/browser/tools/common_tools.dart"];
   "859276239" -> "172518970";
-  "859276239" -> "c316898859" [color="blue",style="bold"];
+  "859276239" -> c316898859 [color=blue, style=bold];
 
   "629673085" [label="src/platform/browser/tools/tools.dart"];
-  "629673085" -> "c316898859" [color="blue",style="bold"];
+  "629673085" -> c316898859 [color=blue, style=bold];
   "629673085" -> "859276239";
 
   "207705837" [label="src/platform/browser_common.dart"];
-  "207705837" -> "376924291" [constraint="false"];
+  "207705837" -> "376924291" [constraint=false];
   "207705837" -> "850155228";
   "207705837" -> "1058715896";
   "207705837" -> "422168826";
@@ -820,8 +831,8 @@ exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "207705837" -> "1057019524";
   "207705837" -> "845265701";
   "207705837" -> "231585129";
-  "207705837" -> "629673085" [color="darkgreen"];
-  "207705837" -> "518275599" [color="darkgreen"];
+  "207705837" -> "629673085" [color=darkgreen];
+  "207705837" -> "518275599" [color=darkgreen];
   "207705837" -> "755037131";
   "207705837" -> "626219191";
   "207705837" -> "284846552";
@@ -833,20 +844,20 @@ exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "518275599" -> "632153951";
 
   "755037131" [label="src/platform/dom/events/dom_events.dart"];
-  "755037131" -> "913357411" [constraint="false"];
+  "755037131" -> "913357411" [constraint=false];
   "755037131" -> "626219191";
 
   "626219191" [label="src/platform/dom/events/event_manager.dart"];
   "626219191" -> "632153951";
   "626219191" -> "866492431";
-  "626219191" -> "c653859099" [color="blue",style="bold"];
+  "626219191" -> c653859099 [color=blue, style=bold];
 
   "450011331" [label="src/platform/dom/events/hammer_common.dart"];
   "450011331" -> "626219191";
 
   "284846552" [label="src/platform/dom/events/hammer_gestures.dart"];
   "284846552" -> "632153951";
-  "284846552" -> "c653859099" [color="blue",style="bold"];
+  "284846552" -> c653859099 [color=blue, style=bold];
   "284846552" -> "450011331";
 
   "1019010345" [label="src/platform/dom/events/key_events.dart"];
@@ -870,8 +881,8 @@ exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "877270655" [label="src/security/html_sanitizer.dart"];
 
   "252724893" [label="src/security/safe_inner_html.dart"];
-  "252724893" -> "125735983" [constraint="false"];
-  "252724893" -> "651637903" [constraint="false"];
+  "252724893" -> "125735983" [constraint=false];
+  "252724893" -> "651637903" [constraint=false];
 
   "315316024" [label="src/security/style_sanitizer.dart"];
   "315316024" -> "172168138";
@@ -936,7 +947,7 @@ exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
   "251827573" -> "39053137";
 
   "1050242966" [label="src/source_gen/template_compiler/compile_metadata.dart"];
-  "1050242966" -> "c1055190050" [color="blue",style="bold"];
+  "1050242966" -> c1055190050 [color=blue, style=bold];
   "1050242966" -> "632153951";
   "1050242966" -> "468201103";
   "1050242966" -> "84783345";
@@ -946,18 +957,18 @@ exceptions.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",col
 
   "564445481" [label="src/source_gen/template_compiler/dart_object_utils.dart"];
 
-  "c985656635" [label="src/source_gen/template_compiler/
+  c985656635 [label="src/source_gen/template_compiler/
 find_components.dart
-pipe_visitor.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
-  "c985656635" -> "c1055190050" [color="blue",style="bold"];
-  "c985656635" -> "116252819";
-  "c985656635" -> "68013407";
-  "c985656635" -> "84783345";
-  "c985656635" -> "996263848";
-  "c985656635" -> "356662272";
-  "c985656635" -> "921843339";
-  "c985656635" -> "1050242966";
-  "c985656635" -> "564445481";
+pipe_visitor.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
+  c985656635 -> c1055190050 [color=blue, style=bold];
+  c985656635 -> "116252819";
+  c985656635 -> "68013407";
+  c985656635 -> "84783345";
+  c985656635 -> "996263848";
+  c985656635 -> "356662272";
+  c985656635 -> "921843339";
+  c985656635 -> "1050242966";
+  c985656635 -> "564445481";
 
   "891397455" [label="src/source_gen/template_compiler/generator.dart"];
   "891397455" -> "152322514";
@@ -966,7 +977,7 @@ pipe_visitor.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",c
   "891397455" -> "82430668";
 
   "1059755984" [label="src/source_gen/template_compiler/ng_deps_visitor.dart"];
-  "1059755984" -> "c1055190050" [color="blue",style="bold"];
+  "1059755984" -> c1055190050 [color=blue, style=bold];
   "1059755984" -> "84783345";
   "1059755984" -> "356662272";
   "1059755984" -> "214966744";
@@ -986,28 +997,28 @@ pipe_visitor.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",c
   "82430668" -> "116252819";
   "82430668" -> "625884144";
   "82430668" -> "971230709";
-  "82430668" -> "c985656635" [color="blue",style="bold"];
+  "82430668" -> c985656635 [color=blue, style=bold];
   "82430668" -> "1059755984";
   "82430668" -> "431760600";
 
   "917045241" [label="src/testing/internal.dart"];
-  "917045241" -> "125735983" [constraint="false"];
+  "917045241" -> "125735983" [constraint=false];
   "917045241" -> "278931602";
-  "917045241" -> "c361446790" [color="blue",style="bold"];
+  "917045241" -> c361446790 [color=blue, style=bold];
   "917045241" -> "490155901";
-  "917045241" -> "736505324" [color="darkgreen"];
+  "917045241" -> "736505324" [color=darkgreen];
 
   "490155901" [label="src/testing/internal_injector.dart"];
-  "490155901" -> "913357411" [constraint="false"];
+  "490155901" -> "913357411" [constraint=false];
 
   "736505324" [label="src/testing/test_component_builder.dart"];
-  "736505324" -> "376924291" [constraint="false"];
-  "736505324" -> "913357411" [constraint="false"];
+  "736505324" -> "376924291" [constraint=false];
+  "736505324" -> "913357411" [constraint=false];
   "736505324" -> "320955504";
   "736505324" -> "759944564";
 
   "793043441" [label="src/testing/test_injector.dart"];
-  "793043441" -> "376924291" [constraint="false"];
+  "793043441" -> "376924291" [constraint=false];
 
   "799030721" [label="src/transform/asset_consumer/transformer.dart"];
   "799030721" -> "39053137";
@@ -1018,14 +1029,14 @@ pipe_visitor.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",c
   "563731233" [label="src/transform/common/asset_reader.dart"];
 
   "686969445" [label="src/transform/common/class_matcher_base.dart"];
-  "686969445" -> "c441433410" [color="blue",style="bold"];
+  "686969445" -> c441433410 [color=blue, style=bold];
   "686969445" -> "773443401";
 
   "239708235" [label="src/transform/common/eager_transformer_wrapper.dart"];
 
-  "c441433410" [label="src/transform/common/
+  c441433410 [label="src/transform/common/
 logging.dart
-zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="lightblue"];
+zone.dart", shape=polygon, sides="6", style="bold,filled", fontsize="20", color=lightblue];
 
   "27619971" [label="src/transform/common/mirror_matcher.dart"];
   "27619971" -> "39053137";
@@ -1050,25 +1061,26 @@ zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="li
   "940133148" -> "107530382";
 
   "773443401" [label="src/transform/common/url_resolver.dart"];
-  "773443401" -> "932937308" [color="darkgreen"];
+  "773443401" -> "932937308" [color=darkgreen];
 
   "107530382" [label="src/transform/common/xhr_impl.dart"];
   "107530382" -> "615751414";
   "107530382" -> "563731233";
-  "107530382" -> "c441433410" [color="blue",style="bold"];
+  "107530382" -> c441433410 [color=blue, style=bold];
   "107530382" -> "773443401";
-  "c441433410" -> "116252819";
+
+  c441433410 -> "116252819";
 
   "518524038" [label="src/transform/deferred_rewriter/rewriter.dart"];
   "518524038" -> "563731233";
-  "518524038" -> "c441433410" [color="blue",style="bold"];
+  "518524038" -> c441433410 [color=blue, style=bold];
   "518524038" -> "39053137";
   "518524038" -> "773443401";
 
   "549153112" [label="src/transform/deferred_rewriter/transformer.dart"];
   "549153112" -> "563731233";
   "549153112" -> "39053137";
-  "549153112" -> "c441433410" [color="blue",style="bold"];
+  "549153112" -> c441433410 [color=blue, style=bold];
   "549153112" -> "518524038";
 
   "936959484" [label="src/transform/reflection_remover/codegen.dart"];
@@ -1086,7 +1098,7 @@ zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="li
   "699054084" -> "910114783";
 
   "910114783" [label="src/transform/reflection_remover/rewriter.dart"];
-  "910114783" -> "c441433410" [color="blue",style="bold"];
+  "910114783" -> c441433410 [color=blue, style=bold];
   "910114783" -> "27619971";
   "910114783" -> "39053137";
   "910114783" -> "936959484";
@@ -1095,42 +1107,43 @@ zone.dart",shape="polygon",sides="6",style="bold,filled",fontsize="20",color="li
   "125249146" [label="src/transform/reflection_remover/transformer.dart"];
   "125249146" -> "600929574";
   "125249146" -> "563731233";
-  "125249146" -> "c441433410" [color="blue",style="bold"];
+  "125249146" -> c441433410 [color=blue, style=bold];
   "125249146" -> "699054084";
 
   "715460934" [label="src/transform/stylesheet_compiler/processor.dart"];
   "715460934" -> "615680471";
   "715460934" -> "921843339";
   "715460934" -> "563731233";
-  "715460934" -> "c441433410" [color="blue",style="bold"];
+  "715460934" -> c441433410 [color=blue, style=bold];
   "715460934" -> "39053137";
   "715460934" -> "940133148";
 
   "571403055" [label="src/transform/stylesheet_compiler/transformer.dart"];
   "571403055" -> "563731233";
   "571403055" -> "39053137";
-  "571403055" -> "c441433410" [color="blue",style="bold"];
+  "571403055" -> c441433410 [color=blue, style=bold];
   "571403055" -> "715460934";
 
   "874415109" [label="src/transform/transformer.dart"];
-  "874415109" -> "415129376" [constraint="false"];
+  "874415109" -> "415129376" [constraint=false];
   "874415109" -> "239708235";
   "874415109" -> "549153112";
   "874415109" -> "125249146";
   "874415109" -> "571403055";
 
-  "362825614" [label="transform/codegen.dart",style="bold,filled",fontsize="20",color="red"];
-  "362825614" -> "415129376" [constraint="false"];
+  "362825614" [label="transform/codegen.dart", style="bold,filled", fontsize="20", color=red];
+  "362825614" -> "415129376" [constraint=false];
   "362825614" -> "799030721";
   "362825614" -> "239708235";
   "362825614" -> "571403055";
 
-  "1043957984" [label="transform/deferred_rewriter.dart",style="bold,filled",fontsize="20",color="red"];
+  "1043957984" [label="transform/deferred_rewriter.dart", style="bold,filled", fontsize="20", color=red];
   "1043957984" -> "549153112";
 
-  "768338483" [label="transform/reflection_remover.dart",style="bold,filled",fontsize="20",color="red"];
+  "768338483" [label="transform/reflection_remover.dart", style="bold,filled", fontsize="20", color=red];
   "768338483" -> "125249146";
 
-  "419382871" [label="transformer.dart",style="bold,filled",fontsize="20",color="red"];
-  "419382871" -> "874415109" [color="darkgreen"];
+  "419382871" [label="transformer.dart", style="bold,filled", fontsize="20", color=red];
+  "419382871" -> "874415109" [color=darkgreen];
 }
+

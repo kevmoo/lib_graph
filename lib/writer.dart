@@ -9,26 +9,6 @@ String toDotHtml(String dot, String title) {
       .replaceAll(_TITLE_PLACE_HOLDER, title);
 }
 
-void writeEdge(
-    StringSink sink, String from, String to, Map<String, String> values) {
-  // NOTE: The first and last double-quote are omitted intentionally.
-  //       They are added within `writeNode`.
-  var name = '$from" -> "$to';
-  writeNode(sink, name, values);
-}
-
-void writeNode(StringSink sink, String name, Map<String, String> values) {
-  sink.write('  "$name"');
-  if (values.isNotEmpty) {
-    var props = values.keys
-        .map((key) => '$key="${values[key]}"')
-        .toList(growable: false)
-        .join(',');
-    sink.write(' [$props]');
-  }
-  sink.writeln(';');
-}
-
 Future openHtml(String name, String htmlContent) async {
   var dir = await Directory.systemTemp.createTemp('pubviz_${name}_');
   var filePath = p.join(dir.path, '$name.html');
