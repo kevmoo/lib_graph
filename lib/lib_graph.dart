@@ -8,7 +8,7 @@ import 'dart:io';
 
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/src/generated/engine.dart';
-import 'package:gviz/gviz.dart';
+import 'package:gviz/gviz.dart' as gv;
 import 'package:path/path.dart' as p;
 
 import 'analyzer.dart';
@@ -148,7 +148,7 @@ class LibGraph {
       return value;
     });
 
-    var sink = new Graph(
+    var gviz = new gv.Gviz(
         name: 'lib_graph',
         nodeProperties: {'fontname': 'Helvetica'},
         edgeProperties: {'fontname': 'Helvetica', 'fontcolor': 'gray'});
@@ -167,7 +167,8 @@ class LibGraph {
       props['fontsize'] = '20';
       props['color'] = 'lightblue';
 
-      sink.addNode(cluster.id, properties: props);
+      gviz.addLine();
+      gviz.addNode(cluster.id, properties: props);
     }
 
     var components =
@@ -213,7 +214,8 @@ class LibGraph {
         props['color'] = 'orange';
       }
 
-      sink.addNode(_nameForLib(element), properties: props);
+      gviz.addLine();
+      gviz.addNode(_nameForLib(element), properties: props);
     }
 
     var librariesToProcess = graphedLibraries.keys.toSet();
@@ -290,16 +292,17 @@ class LibGraph {
           }
         }
 
-        sink.addEdge(fromName, toName, properties: props);
+        gviz.addEdge(fromName, toName, properties: props);
       }
     });
 
-    print(sink);
+    print(gviz);
 
     if (_writeExports) {
       for (var lib in sortedLibs.where((le) => statsSortParm(stats[le]) > 1)) {
-        print([statsSortParm(stats[lib]), _prettyName(lib)].join('  '));
-        print("\t" +
+        stderr
+            .writeln([statsSortParm(stats[lib]), _prettyName(lib)].join('  '));
+        stderr.writeln("\t" +
             stats[lib]
                 .where((e) => e.isExport)
                 .map((e) => _prettyName(e.from))
